@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-family: ;
+}
+
+body{
+    background-color: #EAE0D5;
+}
+
+
+.fejlec{
+    background-color: #F4D1C8;
+    height: 90px;
+    position: relative;
+}
+
+.lenyil {
+    position: absolute;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 16px;
+}
+
+.menu {
+    background-color: #2C3E50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+}
+  
+.sor{
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+.tartalom {
+    display: none;
+    position: absolute;
+    background-color: #EAE0D5;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+  
+.tartalom a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.tartalom a:hover {background-color: #F4D1C8;}
+  
+.lenyil:hover .tartalom {display: block;}
+  
+.lenyil:hover .menu {background-color: #202d3b;}
+
+.ajanlat{
+    text-align: center;
+}
+
+.ajanlat h1{
+    font-size: 25px;
+}
+
+.ajanlat p {
+    font-size: 15px;
+}
+
+.kaja{
+    background-color: white;
+    height: 160px;
+    display: grid;
+    border-radius: 5px;
+    margin: auto;
+    width: 85%;
+    margin-top: 15px;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(5, 1frx);
+}
+
+.kaja img{
+    grid-column: 1/2;
+    grid-row: 1/3;
+    height: 120px;
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.kaja h1{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.kaja p{
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+
+
+/*
+.kaja{
+    background-color: white;
+    height: 120px;
+    border-radius: 5px;
+    margin: auto;
+    position: relative;
+    width: 85%;
+    margin-top: 15px;
+}
+
+.kep1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-image: url("images/baguette.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.cim{
+    position: absolute;
+    top: 13px;
+    left: 230px;
+}
+
+.szoveg{
+    position: absolute;
+    top: 50px;
+    left: 230px;
+}
+
+.kep2{
+
+}
+
+.kep3{
+
+}*/
