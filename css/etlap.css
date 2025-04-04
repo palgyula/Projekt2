@@ -3,18 +3,11 @@
     padding: 0;
     box-sizing: border-box;
     color: #2C3E50;
-<<<<<<< HEAD
-    font-family: ;
-}*/
-
-=======
+    /*font-family: ;*/
 }
->>>>>>> e6dc8095d7bdf3f2d71b9f9200a4036a68622bb2
 
 body{
     background-color: #EAE0D5;
-    margin: 0;
-    padding: 0;
 }
 
 
@@ -22,14 +15,18 @@ body{
     background-color: #F4D1C8;
     height: 90px;
     position: relative;
+    display: flex;
 }
 
-/*
 .focim{
-    text-align: center;
+    margin: auto;
+}
+
+.cim{
     vertical-align: middle;
     padding-top: 11px;
-}*/
+    margin: auto;
+}
 
 .fejlec img{
     width: 65px;
@@ -91,16 +88,18 @@ body{
 
 .ajanlat h1{
     font-size: 25px;
+    margin: 15px 0 2px 0;
 }
 
 .ajanlat p {
     font-size: 15px;
+    margin-bottom: 10px;
 }
 
 
 
 .kaja{
-    
+    display: flex;
     align-items: center;
     background-color: white;
     padding: 5px;
@@ -108,7 +107,10 @@ body{
     margin-bottom: 10px;
     box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
     margin-top: 15px;
-
+    flex-direction: column;
+    width: 85%;
+    margin: auto;
+    text-align: center;
 }
 
 .kaja img{
@@ -121,7 +123,8 @@ body{
 }
 
 .kaja h1{
-    margin-bottom: 15px;
+    text-align: center;
+    font-size: 20px;
 }
 
 .main{
@@ -129,4 +132,32 @@ body{
     margin: auto;
     display: flex;
     flex-direction: column;
+    gap: 15px;
+}
+
+.osszeg{
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    border-bottom:  1px solid black;
+    width: 74%;
+    padding: 5px 0 10px 0;
+}
+
+
+.etlap{
+    width: 85%;
+    margin: auto;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.etlap h1{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.etlap div h2{
+    font-size: 20px;
+    padding-left: 30px;
 }
