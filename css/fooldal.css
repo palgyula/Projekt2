@@ -15,6 +15,15 @@ body{
     background-color: #F4D1C8;
     height: 90px;
     position: relative;
+    display: flex;
+}
+
+.fejlec img{
+    width: 65px;
+    height: 65px;
+    margin-top: 10PX;
+    margin-left: 10PX;
+    border-radius: 15px;
 }
 
 .lenyil {
@@ -65,7 +74,11 @@ body{
 .Focim{
     text-align: center;
     vertical-align: middle;
-    padding-top: 11px;
-
+    width: 90%;
+    padding-bottom: 10px;
+    font-size: 50px;
 }
 
+.mobilkep{
+    width: 92%;
+}
