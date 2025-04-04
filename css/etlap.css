@@ -85,7 +85,7 @@ body{
 }
 
 
-/*
+
 .kaja{
     display: flex;
     align-items: center;
@@ -114,5 +114,4 @@ body{
     margin: 20px auto;
     display: flex;
     flex-direction: column;
-    gap: 15px;
 }
