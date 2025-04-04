@@ -1,26 +1,34 @@
-*{
+/**{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: #2C3E50;
     font-family: ;
-}
+}*/
 
 body{
     background-color: #EAE0D5;
+    margin: 0;
+    padding: 0;
 }
 
 
 .fejlec{
     background-color: #F4D1C8;
     height: 90px;
-    position: relative;
+}
+
+.fejlec img{
+    width: 65px;
+    height: 65px;
+    margin-top: 10PX;
+    margin-left: 10PX;
+    border-radius: 15px;
 }
 
 .lenyil {
     position: absolute;
     display: inline-block;
-    position: absolute;
     top: 20px;
     right: 16px;
 }
@@ -76,79 +84,35 @@ body{
     font-size: 15px;
 }
 
-.kaja{
-    background-color: white;
-    height: 160px;
-    display: grid;
-    border-radius: 5px;
-    margin: auto;
-    width: 85%;
-    margin-top: 15px;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(5, 1frx);
-}
-
-.kaja img{
-    grid-column: 1/2;
-    grid-row: 1/3;
-    height: 120px;
-    width: 200px;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 5px;
-}
-
-.kaja h1{
-    grid-column: 2/3;
-    grid-row: 1/2;
-}
-
-.kaja p{
-    grid-column: 2/4;
-    grid-row: 2/4;
-}
-
 
 /*
 .kaja{
+    display: flex;
+    align-items: center;
     background-color: white;
-    height: 120px;
-    border-radius: 5px;
-    margin: auto;
-    position: relative;
-    width: 85%;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5 px rgb(0, 0, 0, 0.1);
     margin-top: 15px;
 }
 
-.kep1{
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    background-image: url("images/baguette.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 80px;
+.kaja img{
     width: 150px;
+    height: 100px;
+    object-fit: cover;
     border-radius: 5px;
+    margin-right: 15px;
 }
 
-.cim{
-    position: absolute;
-    top: 13px;
-    left: 230px;
+.kaja h1{
+    margin-bottom: 15px;
 }
 
-.szoveg{
-    position: absolute;
-    top: 50px;
-    left: 230px;
+.main{
+    width: 85%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
-
-.kep2{
-
-}
-
-.kep3{
-
-}*/
