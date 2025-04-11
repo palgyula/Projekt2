@@ -82,9 +82,64 @@ body{
 }
 
 .fokep{
-    background-image: url("images/etterem.jpg");
+    background-image: url("../images/etterem.jpg");
     width: 85%;
     height: 900px;
     margin: auto;
     margin-top: 50px;
+
 }
+
+footer{
+    height: 100px;
+    display:flex;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.footertart{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+
+.teloszam{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.email{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.hazszam{
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+
+footer img{
+    width: 65px;
+    height: 65px;
+    margin-top: 12PX;
+    margin-left: 10PX;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+
+
+@media only screen and (max-width: 400px){
+    .focim{
+        font-size: 50px;
+    }
+}
+ 
+@media only screen and (max-width: 370px){
+    .focim{
+        font-size: 40px;
+    }
+}
+ 
+
