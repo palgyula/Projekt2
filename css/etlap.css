@@ -10,166 +10,170 @@ body{
     background-color: #EAE0D5;
 }
 
-
-.fejlec{
-    background-color: #F4D1C8;
-    height: 90px;
-    display: flex;
-}
-
-.focim{
-    margin: auto;
-    font-size: 60px;
-    padding-bottom: 20px;
-}
-
-.fejlec img{
-    width: 65px;
-    height: 65px;
-    margin-top: 12PX;
-    margin-left: 10PX;
-    border-radius: 15px;
-}
-
-.lenyil {
-    display: inline-block;
-    margin-top: 18px;
-    margin-right: 16px;
-}
-
-.lenyil button{
-    font-size: 25px;
-}
-
-.menu {
-    background-color: #2C3E50;
-    color: white;
-    padding: 7px 16px 16px 16px;
-    font-size: 16px;
-    border: none;
-    border-radius: 10px;
-}
-  
-.sor{
-  width: 35px;
-  height: 5px;
-  background-color: white;
-  margin: 6px 0;
-}
-
-.tartalom {
-    display: none;
-    position: absolute;
-    background-color: #EAE0D5;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    border-radius: 10px;
-    margin-right: 10px;
-}
-  
-.tartalom a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-  
-.tartalom a:hover {background-color: #F4D1C8;}
-  
-.lenyil:hover .tartalom {display: block;}
-  
-.lenyil:hover .menu {background-color: #202d3b;}
-
-.ajanlat{
-    text-align: center;
-}
-
-.ajanlat h1{
-    font-size: 50px;
-    margin: 7px 0 2px 0;
-}
-
-.ajanlat p {
-    font-size: 30px;
-    margin-bottom: 10px;
-}
+@media only screen and (max-width: 800px){
 
 
+    .fejlec{
+        background-color: #F4D1C8;
+        height: 90px;
+        display: flex;
+    }
 
-.kaja{
-    display: flex;
-    align-items: center;
-    background-color: white;
-    padding: 5px;
-    border-radius: 8px;
-    margin-bottom: 10px;
-    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
-    margin-top: 15px;
-    flex-direction: column;
-    width: 85%;
-    margin: auto;
-    text-align: center;
-}
+    .focim{
+        margin: auto;
+        font-size: 60px;
+        padding-bottom: 20px;
+    }
 
-.kaja img{
-    width: 180px;
-    height: 120px;
-    object-fit: cover;
-    border-radius: 5px;
-    margin-right: 15px;
-    margin-left: 5px;
-}
+    .fejlec img{
+        width: 65px;
+        height: 65px;
+        margin-top: 12PX;
+        margin-left: 10PX;
+        border-radius: 15px;
+    }
 
-.kaja h1{
-    text-align: center;
-    font-size: 35px;
-}
+    .lenyil {
+        display: inline-block;
+        margin-top: 18px;
+        margin-right: 16px;
+    }
 
-.kaja p{
-    font-size: 25px;
-}
+    .lenyil button{
+        font-size: 25px;
+    }
 
-.main{
-    width: 85%;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.osszeg{
-    margin: auto;
-    text-align: center;
-    font-size: 30px;
-    border-bottom:  1px solid black;
-    width: 74%;
-
-}
-
-.etlap{
-    width: 85%;
-    margin: auto;
-    gap: 15px;
-    display: flex;
-    flex-direction: column;
-}
-.etlap h1{
-    text-align: center;
-
-    font-size: 40px;
-}
-
-.kiscim{
-    width: 85%;
-    margin: auto;
-}
-
-.kiscim h2{
-    font-size: 30px;
-}
+    .menu {
+        background-color: #2C3E50;
+        color: white;
+        padding: 7px 16px 16px 16px;
+        font-size: 16px;
+        border: none;
+        border-radius: 10px;
+    }
     
-.etlap div h2{
-    font-size: 20px;
+    .sor{
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    }
+
+    .tartalom {
+        display: none;
+        position: absolute;
+        background-color: #EAE0D5;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        border-radius: 10px;
+        margin-right: 10px;
+    }
+    
+    .tartalom a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .tartalom a:hover {background-color: #F4D1C8;}
+    
+    .lenyil:hover .tartalom {display: block;}
+    
+    .lenyil:hover .menu {background-color: #202d3b;}
+
+    .ajanlat{
+        text-align: center;
+    }
+
+    .ajanlat h1{
+        font-size: 50px;
+        margin: 7px 0 2px 0;
+    }
+
+    .ajanlat p {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+
+
+    .kaja{
+        display: flex;
+        align-items: center;
+        background-color: white;
+        padding: 5px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
+        margin-top: 15px;
+        flex-direction: column;
+        width: 85%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .kaja img{
+        width: 180px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 5px;
+        margin-right: 15px;
+        margin-left: 5px;
+    }
+
+    .kaja h1{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .kaja p{
+        font-size: 25px;
+    }
+
+    .main{
+        width: 85%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .osszeg{
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        border-bottom:  1px solid black;
+        width: 74%;
+
+    }
+
+    .etlap{
+        width: 85%;
+        margin: auto;
+        gap: 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .etlap h1{
+        text-align: center;
+
+        font-size: 40px;
+    }
+
+    .kiscim{
+        width: 85%;
+        margin: auto;
+    }
+
+    .kiscim h2{
+        font-size: 30px;
+    }
+        
+    .etlap div h2{
+        font-size: 20px;
+    }
+
 }
 
 @media only screen and (max-width: 400px){
@@ -182,4 +186,39 @@ body{
     .focim{
         font-size: 40px;
     }
+}
+
+@media only screen and (min-width: 800px){
+
+
+
+    .menu{
+        display: none;
+    }
+
+    .tartalom a{
+        text-decoration: none;
+        justify-content: center;
+    }
+
+    .fejlec{
+        background-color: #F4D1C8;
+        height: 90px;
+        display: flex;
+    }
+
+    .focim{
+        margin: auto;
+        font-size: 60px;
+        padding-bottom: 20px;
+    }
+
+    .fejlec img{
+        width: 65px;
+        height: 65px;
+        margin-top: 12PX;
+        margin-left: 10PX;
+        border-radius: 15px;
+    }
+    
 }
