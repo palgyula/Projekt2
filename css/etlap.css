@@ -10,6 +10,8 @@ body{
     background-color: #EAE0D5;
 }
 
+@media only screen and (max-width: 800px){
+
     .fejlec{
         background-color: #F4D1C8;
         height: 90px;
@@ -28,9 +30,8 @@ body{
         margin-top: 12PX;
         margin-left: 10PX;
         border-radius: 15px;
+        max-width: 100%;
     }
-
-@media only screen and (max-width: 800px){
 
     .lenyil {
         display: inline-block;
@@ -189,12 +190,42 @@ body{
 
 @media only screen and (min-width: 800px){
 
+    .fejlec{
+        background-color: #F4D1C8;
+        height: 90px;
+        display: flex;
+    }
+
+    .focim{
+        text-align: left;
+        margin-left: 20px;
+        font-size: 60px;
+        padding-bottom: 20px;
+    }
+
+    .fejlec img{
+        width: 65px;
+        height: 65px;
+        margin-top: 12PX;
+        margin-left: 10PX;
+        border-radius: 15px;
+        max-width: 100%;
+    }
+
     .menu{
         display: none;
     }
 
+    .tartalom{
+        margin-top: 27px;
+        text-align: right;
+    }
+
     .tartalom a{
         text-decoration: none;
+        margin-top: 350px;
+        margin-right: 27px;
+        font-size: 28px;
     }
 
 }
