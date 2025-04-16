@@ -96,8 +96,6 @@ body{
         margin-bottom: 10px;
     }
 
-
-
     .kaja{
         display: flex;
         align-items: center;
@@ -155,9 +153,9 @@ body{
         display: flex;
         flex-direction: column;
     }
+
     .etlap h1{
         text-align: center;
-
         font-size: 40px;
     }
 
@@ -189,7 +187,6 @@ body{
 }
 
 @media only screen and (min-width: 800px){
-
     .fejlec{
         background-color: #F4D1C8;
         height: 90px;
@@ -201,6 +198,7 @@ body{
         margin-left: 20px;
         font-size: 60px;
         padding-bottom: 20px;
+        flex-grow: 10;
     }
 
     .fejlec img{
@@ -218,14 +216,80 @@ body{
 
     .tartalom{
         margin-top: 27px;
-        text-align: right;
+        
     }
 
     .tartalom a{
+        text-align: right;
         text-decoration: none;
         margin-top: 350px;
         margin-right: 27px;
         font-size: 28px;
     }
 
+    .ajanlat{
+        text-align: center;
+    }
+
+    .ajanlat h1{
+        font-size: 50px;
+        margin: 3px 0 2px 0;
+    }
+
+    .ajanlat p {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .main{
+        width: 85%;
+        margin: auto;
+        display: flex;
+        gap: 15px;
+    }
+
+    .kaja{
+        display: flex;
+        flex: 1;
+        align-items: center;
+        background-color: white;
+        padding: 5px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
+        margin-top: 15px;
+        flex-direction: column;
+        width: 85%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .kaja img{
+        width: 180px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 5px;
+        margin-right: 15px;
+        margin-left: 5px;
+    }
+
+    .kaja h1{
+        text-align: center;
+        font-size: 35px;
+    }
+
+    .kaja p{
+        font-size: 25px;
+    }
+    .osszeg{
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+        border-bottom:  1px solid black;
+        width: 85%;
+    }
+    .etlap h1{
+        text-align: center;
+        font-size: 40px;
+    }
 }
