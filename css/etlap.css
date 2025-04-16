@@ -172,6 +172,42 @@ body{
         font-size: 20px;
     }
 
+    .aperitif{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .eloetelek{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .foetelek{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .desszertek{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .italok{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .sajtvalogatas{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
 }
 
 @media only screen and (max-width: 400px){
