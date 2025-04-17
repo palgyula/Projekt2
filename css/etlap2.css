@@ -11,6 +11,10 @@ body {
     background-color: #EAE0D5;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 /* ======= KÖZÖS STÍLUSOK (mobil + gép) ======= */
 
 .fejlec {
