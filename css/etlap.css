@@ -12,6 +12,10 @@ body{
 
 @media only screen and (max-width: 800px){
 
+    .gyorsgomb{
+        display: none;
+    }
+
     .fejlec{
         background-color: #F4D1C8;
         height: 90px;
@@ -50,13 +54,6 @@ body{
         font-size: 16px;
         border: none;
         border-radius: 10px;
-    }
-    
-    .sor{
-    width: 35px;
-    height: 5px;
-    background-color: white;
-    margin: 6px 0;
     }
 
     .tartalom {
@@ -223,6 +220,7 @@ body{
 }
 
 @media only screen and (min-width: 800px){
+
     .fejlec{
         background-color: #F4D1C8;
         height: 90px;
@@ -277,11 +275,32 @@ body{
         margin-bottom: 10px;
     }
 
+    .gyorsgomb{
+        background-color: #fff;
+        border-radius: 15px;
+        height: 320px;
+        width: 250px;
+        margin: auto;
+        margin: 25px;
+        padding: 25px;
+
+    }
+
     .main{
         width: 85%;
         margin: auto;
         display: flex;
         gap: 15px;
+    }
+
+    #ide1{
+        width: 85%;
+    }
+
+    .main .kaja{
+        margin-top: 15px;
+        margin-bottom: 10px;
+
     }
 
     .kaja{
@@ -291,13 +310,17 @@ body{
         background-color: white;
         padding: 5px;
         border-radius: 8px;
-        margin-bottom: 10px;
-        box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1);
-        margin-top: 15px;
-        flex-direction: column;
+        box-shadow: 0 2px 5px rgb(0, 0, 0, 0.1); 
         width: 85%;
+        flex-direction: column;
         margin: auto;
         text-align: center;
+        box-sizing: border-box;
+    }
+
+    .etlap .kaja{
+        margin: auto;
+        margin: 25px;
     }
 
     .kaja img{
@@ -317,6 +340,7 @@ body{
     .kaja p{
         font-size: 25px;
     }
+
     .osszeg{
         margin: auto;
         text-align: center;
@@ -324,8 +348,134 @@ body{
         border-bottom:  1px solid black;
         width: 85%;
     }
+    
+    
+    .etlap{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(15, auto);
+    }
+
     .etlap h1{
-        text-align: center;
-        font-size: 40px;
+            text-align: center;
+            font-size: 40px;
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+
+    .kiscim h2{
+        font-size: 28px;
+    }
+
+    .lista{
+        list-style-type: none;
+    }
+
+    .lista li a{
+        text-decoration: none;
+    }
+
+    #odavisz{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin: auto;
+
+    }
+
+    .etlap nav:nth-of-type(1){
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    #kaja1{
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    #kaja2{
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+
+    .etlap nav:nth-of-type(2){
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+
+    #kaja3{
+        grid-column: 2/3;
+    }
+
+    #kaja4{
+        grid-column: 3/4;
+    }
+
+    #kaja5{
+        grid-column: 2/3;
+    }
+
+    #kaja6{
+        grid-column: 3/4;
+    }
+
+    .etlap nav:nth-of-type(3){
+        grid-column: 2/3;
+    }
+
+    #kaja7{
+        grid-column: 2/3;
+    }
+
+    #kaja8{
+        grid-column: 3/4;
+    }
+
+    #kaja9{
+        grid-column: 2/3;
+    }
+
+    #kaja10{
+        grid-column: 3/4;
+    }
+
+    .etlap nav:nth-of-type(4){
+        grid-column: 2/3;
+    }
+
+    #kaja11{
+        grid-column: 2/3;
+    }
+
+    .etlap nav:nth-of-type(5){
+        grid-column: 2/3;
+    }
+
+    #kaja12{
+        grid-column: 2/3;
+    }
+
+    #kaja13{
+        grid-column: 3/4;
+    }
+
+    #kaja14{
+        grid-column: 2/3;
+    }
+
+    #kaja15{
+        grid-column: 3/4;
+    }
+
+    .etlap nav:nth-of-type(6){
+        grid-column: 2/3;
+    }
+
+    #kaja16{
+        grid-column: 2/3;
+    }
+
+    #kaja17{
+        grid-column: 3/4;
+        
     }
 }
