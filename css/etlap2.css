@@ -154,17 +154,11 @@ html {
         display: block;
     }
 
-    .tartalom a:hover {
-        background-color: #F4D1C8;
-    }
+    .tartalom a:hover {background-color: #F4D1C8;}
 
-    .lenyil:hover .tartalom {
-        display: block;
-    }
+    .lenyil:hover .tartalom {display: block;}
 
-    .lenyil:hover .menu {
-        background-color: #202d3b;
-    }
+    .lenyil:hover .menu {background-color: #202d3b;}
 
     .main, .etlap, .kiscim {
         width: 85%;
@@ -229,6 +223,7 @@ html {
         margin-top: 350px;
         margin-right: 27px;
         font-size: 28px;
+        text-decoration: none;
     }
 
     .gyorsgomb {
@@ -244,6 +239,8 @@ html {
         display: flex;
         flex-direction: row;
         gap: 15px;
+        width: 85%;
+        margin: auto;
     }
 
     #ide1 {

@@ -24,6 +24,7 @@ body{
     margin-top: 12PX;
     margin-left: 10PX;
     border-radius: 15px;
+    max-width: 100%;
 }
 
 .lenyil {
@@ -32,27 +33,25 @@ body{
     margin-right: 16px;
     
 }
+
+.lenyil button {
+    font-size: 25px;
+}
+
 .menu {
     background-color: #2C3E50;
     color: white;
-    padding: 16px;
+    padding: 7px 16px 16px 16px;
     font-size: 16px;
     border: none;
     border-radius: 10px;
-}
-  
-.sor{
-  width: 35px;
-  height: 5px;
-  background-color: white;
-  margin: 6px 0;
 }
 
 .tartalom {
     display: none;
     position: absolute;
     background-color: #EAE0D5;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
     z-index: 1;
     border-radius: 10px;
     margin-right: 10px;
@@ -71,10 +70,12 @@ body{
   
 .lenyil:hover .menu {background-color: #202d3b;}
 
-.Focim{
+.focim{
     margin: auto;
     font-size: 60px;
     padding-bottom: 20px;
+    margin-left: 20px;
+    flex-grow: 10;
 }
 
 .mobilkep{
