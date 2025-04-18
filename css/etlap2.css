@@ -106,7 +106,6 @@ html {
 footer{
     height: 100px;
     display:flex;
-    padding-bottom: 20px;
     padding-top: 20px;
     background-color: #F4D1C8;
 }
@@ -119,6 +118,10 @@ footer{
     text-align: center;
 }
 
+footer div{
+    padding-bottom: 14px;
+}
+   
 .teloszam{
     grid-column: 1 / 2;
     grid-row: 1 / 2;
