@@ -89,6 +89,11 @@ html {
     width: 85%;
 }
 
+.kiscim{
+    width: 85%;
+    margin: auto;
+}
+
 .kiscim h2 {
     font-size: 28px;
 }
@@ -96,14 +101,6 @@ html {
 .etlap h1 {
     text-align: center;
     font-size: 40px;
-}
-
-.lista {
-    list-style-type: none;
-}
-
-.lista li a {
-    text-decoration: none;
 }
 
 footer{
@@ -271,12 +268,22 @@ footer img{
     }
 
     .gyorsgomb {
-        background-color: #fff;
-        border-radius: 15px;
-        height: 320px;
-        width: 250px;
-        margin: 25px auto;
-        padding: 25px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        width: 85%;
+        margin: 15px auto 10px;
+        box-sizing: border-box;
+        padding: 20px;
+        max-height: 380px;
+    }
+  
+    .lista {
+        padding-left: 25px;
+    }
+
+    .lista li a {
+        text-decoration: none;
     }
 
     .main {
@@ -305,7 +312,6 @@ footer img{
     #odavisz {
         grid-column: 1/2;
         grid-row: 3/4;
-        margin: auto;
     }
 
     .etlap nav:nth-of-type(1) { grid-column: 2/3; grid-row: 2/3; }
