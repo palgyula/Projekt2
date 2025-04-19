@@ -1,3 +1,5 @@
+/* ======= KÖZÖS STÍLUSOK (mobil + gép) ======= */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +17,27 @@ html {
     scroll-behavior: smooth;
   }
 
-/* ======= KÖZÖS STÍLUSOK (mobil + gép) ======= */
+  .etlap{
+    width: 85%;
+    margin: auto;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-family: 'Katibeh';
+    font-size: 22px;
+}
+
+body {
+    background-color: #EAE0D5;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
 
 .fejlec {
     background-color: #F4D1C8;
@@ -108,6 +130,7 @@ footer{
     display:flex;
     padding-top: 20px;
     background-color: #F4D1C8;
+    justify-content: center;
 }
 
 .footertart{
@@ -116,10 +139,6 @@ footer{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     text-align: center;
-}
-
-footer div{
-    padding-bottom: 14px;
 }
    
 .teloszam{
@@ -280,7 +299,7 @@ footer img{
         padding: 20px;
         max-height: 380px;
     }
-  
+
     .lista {
         padding-left: 25px;
     }
