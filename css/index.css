@@ -11,6 +11,8 @@ body{
     font-family: 'Katibeh';font-size: 22px;
 }
 
+@media only screen and (max-width: 800px){
+
 .fejlec{
     display: flex;
     background-color: #F4D1C8;
@@ -76,6 +78,7 @@ body{
     padding-bottom: 20px;
     margin-left: 20px;
     flex-grow: 10;
+    text-align: center ;
 }
 
 .mobilkep{
@@ -140,21 +143,32 @@ footer img{
 }
 
 .foglalass{
-    vertical-align: middle;
+    vertical-align: bottom;
     text-align: center;
     width: 70%;
     height: 45px;
     margin: auto;
-    margin-top: 670px;
+    margin-top: 450px;
+    margin-bottom: 5px;
 }
 
 .helyszinn{
-    vertical-align: middle;
     text-align: center;
     width: 70%;
     height: 45px;
     margin: auto;
 
+}
+
+.szoveg{
+    background-color: #EAE0D5;
+    color: #2C3E50;
+    height: fit-content;
+    width: 60%;
+    margin-top: 60%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 5px;
 }
 
 .ettermunk{
@@ -211,10 +225,6 @@ footer img{
 }
 
 
-
-
-
-
 @media only screen and (max-width: 400px){
     .focim{
         font-size: 50px;
@@ -226,5 +236,185 @@ footer img{
         font-size: 40px;
     }
 }
- 
+}
+/*=====================================================*/
+@media only screen and (min-width: 800px){
 
+    .fejlec{
+        background-color: #F4D1C8;
+        height: 90px;
+        display: flex;
+    }
+
+    .focim{
+        text-align: left;
+        margin-left: 20px;
+        font-size: 60px;
+        padding-bottom: 20px;
+        flex-grow: 10;
+    }
+
+    .fejlec img{
+        width: 65px;
+        height: 65px;
+        margin-top: 12PX;
+        margin-left: 10PX;
+        border-radius: 15px;
+        max-width: 100%;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .tartalom{
+        margin-top: 27px;
+        
+    }
+
+    .tartalom a{
+        text-align: right;
+        text-decoration: none;
+        margin-top: 350px;
+        margin-right: 27px;
+        font-size: 28px;
+    }
+
+    footer{
+        height: 65px;
+        display:flex;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+      
+    }
+    
+    .footertart{
+        margin: auto;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        text-align: center;
+    }
+    
+    .teloszam{
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+    }
+    
+    .email{
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+    }
+    
+    .hazszam{
+        grid-column: 1 / 3;
+        grid-row: 2 / 3;
+    }
+    
+    footer img{
+        width: 65px;
+        height: 65px;
+        border-radius: 15px;
+        border: 1px solid #2C3E50;
+        
+    }
+
+    .fokep{
+        text-align: center;
+        display: block;
+        margin-left: 0;
+        margin-right: ;
+        margin-bottom: 20px;
+        width: 50%;
+    }
+
+    .foglalass{
+        vertical-align: middle;
+        text-align: center;
+        width: 70%;
+        height: 45px;
+        margin: auto;
+        margin-top: 670px;
+    }
+    
+    .helyszinn{
+        vertical-align: middle;
+        text-align: center;
+        width: 70%;
+        height: 45px;
+        margin: auto;
+    
+    }
+    
+    .ettermunk{
+        color: #ffffff;
+        font-size: 60px;
+        padding-top: 20px;
+    
+    
+    }
+    
+    .foglalas{
+        background-color: #2C3E50;
+        width: 100%;
+        height: 45px;
+        border-radius: 8px;
+        text-decoration: none;
+        border: 1px solid #EAE0D5;
+        color: #ffffff;
+        padding-bottom: 5px;
+    
+    }
+    
+    .foglalass{
+        vertical-align: middle;
+        text-align: center;
+        width: 70%;
+        height: 45px;
+        margin: auto;
+        margin-top: 670px;
+    }
+    
+    .helyszinn{
+        vertical-align: middle;
+        text-align: center;
+        width: 70%;
+        height: 45px;
+        margin: auto;
+    
+    }
+    
+    .ettermunk{
+        color: #ffffff;
+        font-size: 60px;
+        padding-top: 20px;
+    
+    
+    }
+    
+    .foglalas{
+        background-color: #2C3E50;
+        width: 100%;
+        height: 45px;
+        border-radius: 8px;
+        text-decoration: none;
+        border: 1px solid #EAE0D5;
+        color: #ffffff;
+        padding-bottom: 5px;
+    
+    }
+    
+    .helyszin{
+        background-color: #2C3E50;
+        width: 100%;
+        height: 45px;
+        border-radius: 7px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #EAE0D5;
+        color: #ffffff;
+        padding-bottom: 5px;
+    }
+
+}
