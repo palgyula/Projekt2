@@ -81,6 +81,11 @@ body{
     text-align: center ;
 }
 
+.kep{
+    display: none;
+
+}
+
 .mobilkep{
     width: 92%;
 }
@@ -103,11 +108,10 @@ body{
 }
 
 footer{
-    height: 65px;
+    height: 75px;
     display:flex;
     margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: 5px;
+    background-color: #F4D1C8;
   
 }
 
@@ -139,6 +143,7 @@ footer img{
     height: 65px;
     border-radius: 15px;
     border: 1px solid #2C3E50;
+    margin: 5px;
     
 }
 
@@ -164,11 +169,12 @@ footer img{
     background-color: #EAE0D5;
     color: #2C3E50;
     height: fit-content;
-    width: 60%;
+    width: 70%;
     margin-top: 60%;
     margin: auto;
     margin-top: 30px;
     padding: 5px;
+    text-align: justify;
 }
 
 .ettermunk{
@@ -188,6 +194,7 @@ footer img{
     border: 1px solid #EAE0D5;
     color: #ffffff;
     padding-bottom: 5px;
+    cursor: pointer;
 
 }
 
@@ -201,6 +208,7 @@ footer img{
     border: 1px solid #EAE0D5;
     color: #ffffff;
     padding-bottom: 5px;
+    cursor: pointer;
 }
 
 
@@ -240,10 +248,17 @@ footer img{
 /*=====================================================*/
 @media only screen and (min-width: 800px){
 
+    .oldal{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 2fr 1fr;
+    }
+
     .fejlec{
         background-color: #F4D1C8;
         height: 90px;
         display: flex;
+        width: 100%;
     }
 
     .focim{
@@ -281,35 +296,18 @@ footer img{
     }
 
     footer{
-        height: 65px;
+        height: 75px;
         display:flex;
         margin-top: 20px;
-        margin-bottom: 10px;
-        margin-left: 5px;
+        background-color: #F4D1C8;
       
     }
     
     .footertart{
         margin: auto;
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        display: flex;
+        gap: 50px;
         text-align: center;
-    }
-    
-    .teloszam{
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
-    }
-    
-    .email{
-        grid-column: 2 / 3;
-        grid-row: 1 / 2;
-    }
-    
-    .hazszam{
-        grid-column: 1 / 3;
-        grid-row: 2 / 3;
     }
     
     footer img{
@@ -317,6 +315,7 @@ footer img{
         height: 65px;
         border-radius: 15px;
         border: 1px solid #2C3E50;
+        margin: 5px;
         
     }
 
@@ -324,48 +323,23 @@ footer img{
         text-align: center;
         display: block;
         margin-left: 0;
-        margin-right: ;
         margin-bottom: 20px;
-        width: 50%;
+        width: 100%;
+        height: 400px;
+        min-height: 600px;
+
     }
 
-    .foglalass{
-        vertical-align: middle;
-        text-align: center;
-        width: 70%;
-        height: 45px;
-        margin: auto;
-        margin-top: 670px;
-    }
-    
-    .helyszinn{
-        vertical-align: middle;
-        text-align: center;
-        width: 70%;
-        height: 45px;
-        margin: auto;
-    
-    }
     
     .ettermunk{
-        color: #ffffff;
+        color: #2C3E50;
         font-size: 60px;
-        padding-top: 20px;
-    
-    
-    }
-    
-    .foglalas{
-        background-color: #2C3E50;
-        width: 100%;
-        height: 45px;
-        border-radius: 8px;
-        text-decoration: none;
-        border: 1px solid #EAE0D5;
-        color: #ffffff;
-        padding-bottom: 5px;
+        padding: 10px;
+        width: 90%;
+        margin-top: 20px;
     
     }
+    
     
     .foglalass{
         vertical-align: middle;
@@ -373,7 +347,7 @@ footer img{
         width: 70%;
         height: 45px;
         margin: auto;
-        margin-top: 670px;
+        margin-top: 30px;
     }
     
     .helyszinn{
@@ -381,17 +355,11 @@ footer img{
         text-align: center;
         width: 70%;
         height: 45px;
-        margin: auto;
-    
+        margin-top: 7px;
+        margin-left: auto;
+        margin-right: auto;
     }
     
-    .ettermunk{
-        color: #ffffff;
-        font-size: 60px;
-        padding-top: 20px;
-    
-    
-    }
     
     .foglalas{
         background-color: #2C3E50;
@@ -399,9 +367,10 @@ footer img{
         height: 45px;
         border-radius: 8px;
         text-decoration: none;
-        border: 1px solid #EAE0D5;
+        border: 1px solid #ffffff;
         color: #ffffff;
         padding-bottom: 5px;
+        cursor: pointer;
     
     }
     
@@ -409,12 +378,60 @@ footer img{
         background-color: #2C3E50;
         width: 100%;
         height: 45px;
-        border-radius: 7px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        border: 1px solid #EAE0D5;
-        color: #ffffff;
+        border-radius: 8px;
+        border: 1px solid #ffffff;
         padding-bottom: 5px;
+        color: #ffffff;
+        cursor: pointer;
     }
+
+.szoveg{
+    width: 85%;
+    text-align: justify;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #2C3E50;
+    border-style: double;
+    text-align: center;
+}
+
+.csillag{
+    grid-column: 1/2;
+    grid-row: 2/3;;
+    align-self: center;
+    text-align: center;
+    border: 1px solid #2C3E50;
+    
+    width: 90%;
+    margin: auto;
+    height: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.kep{
+    background-image: url("../images/etterem2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: block;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    padding-bottom: auto;
+}
+
+.terkep{
+    background-image: url("../images/terkep.PNG");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: block;
+    width: 80%;
+    height: 85%;
+    margin: auto;;
+    padding-bottom: auto;
+    border: 2px solid #2C3E50;
+}
 
 }
