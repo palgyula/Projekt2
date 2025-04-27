@@ -43,6 +43,8 @@ html {
     background-color: #F4D1C8;
     height: 90px;
     display: flex;
+    position: sticky;
+    top: 0;
 }
 
 .fejlec img {
