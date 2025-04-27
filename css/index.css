@@ -17,6 +17,8 @@ body{
     display: flex;
     background-color: #F4D1C8;
     height: 90px;
+    position: sticky;
+    top: 0;
     
 }
 
@@ -154,15 +156,19 @@ footer img{
     height: 45px;
     margin: auto;
     margin-top: 450px;
-    margin-bottom: 5px;
+    margin-bottom: 0;
 }
 
-.helyszinn{
+.helyszinn1{
     text-align: center;
     width: 70%;
     height: 45px;
     margin: auto;
 
+}
+
+.helyszinn2{
+    display: none;
 }
 
 .szoveg{
@@ -259,6 +265,8 @@ footer img{
         height: 90px;
         display: flex;
         width: 100%;
+        position: sticky;
+        top: 0;
     }
 
     .focim{
@@ -350,7 +358,7 @@ footer img{
         margin-top: 30px;
     }
     
-    .helyszinn{
+    .helyszinn2{
         vertical-align: middle;
         text-align: center;
         width: 70%;
@@ -359,6 +367,11 @@ footer img{
         margin-left: auto;
         margin-right: auto;
     }
+
+    .helyszinn1{
+        display: none;
+    }
+
     
     
     .foglalas{
