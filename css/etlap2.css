@@ -20,6 +20,7 @@ html {
   .etlap{
     width: 85%;
     margin: auto;
+    margin-bottom: 30px ;
   }
 
 * {
@@ -168,6 +169,7 @@ footer img{
     margin-left: 10PX;
     border-radius: 15px;
     margin-bottom: 12px;
+    border: 1px solid #2C3E50;
 }
 
 #kep2{
@@ -243,6 +245,7 @@ footer img{
         display: flex;
         flex-direction: column;
         gap: 15px;
+        margin-bottom: 30px ;
     }
 
     .kiscim h2 {
@@ -329,6 +332,7 @@ footer img{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(15, auto);
+        margin-bottom: 30px ;
     }
 
     .etlap h1 {
