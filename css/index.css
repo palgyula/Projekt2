@@ -164,6 +164,7 @@ footer img{
     width: 70%;
     height: 45px;
     margin: auto;
+    z-index: 5;
 
 }
 
@@ -201,6 +202,8 @@ footer img{
     color: #ffffff;
     padding-bottom: 5px;
     cursor: pointer;
+    padding-left: 9vw;
+    padding-right: 9vw;
 
 }
 
@@ -215,6 +218,9 @@ footer img{
     color: #ffffff;
     padding-bottom: 5px;
     cursor: pointer;
+    padding-left: 9vw;
+    padding-right: 9vw;
+    z-index: 4;
 }
 
 
@@ -384,6 +390,8 @@ footer img{
         color: #ffffff;
         padding-bottom: 5px;
         cursor: pointer;
+        padding-left: 9vw;
+        padding-right: 9vw;
     
     }
     
@@ -396,6 +404,12 @@ footer img{
         padding-bottom: 5px;
         color: #ffffff;
         cursor: pointer;
+        text-decoration: none;
+        padding-left: 15vw;
+        padding-right: 15vw;
+        padding-bottom: 1vw;
+        min-height: 35px;
+        vertical-align: middle;
     }
 
 .szoveg{

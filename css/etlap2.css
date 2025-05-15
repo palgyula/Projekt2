@@ -1,0 +1,376 @@
+/* ======= KÖZÖS STÍLUSOK (mobil + gép) ======= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-family: 'Katibeh';
+    font-size: 22px;
+}
+
+body {
+    background-color: #EAE0D5;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  .etlap{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 30px ;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-family: 'Katibeh';
+    font-size: 22px;
+}
+
+body {
+    background-color: #EAE0D5;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.fejlec {
+    background-color: #F4D1C8;
+    height: 90px;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+.fejlec img {
+    width: 65px;
+    height: 65px;
+    margin-top: 12px;
+    margin-left: 10px;
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+.focim {
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+.ajanlat {
+    text-align: center;
+}
+
+.ajanlat h1 {
+    font-size: 50px;
+    margin: 3px 0 2px 0;
+}
+
+.ajanlat p {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.kaja {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 85%;
+    margin: 15px auto 10px;
+    box-sizing: border-box;
+}
+
+.kaja img {
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 0 15px 10px 5px;
+}
+
+.kaja h1 {
+    font-size: 35px;
+}
+
+.kaja p {
+    font-size: 25px;
+}
+
+.osszeg {
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 1px solid black;
+    width: 85%;
+}
+
+.kiscim{
+    width: 85%;
+    margin: auto;
+}
+
+.kiscim h2 {
+    font-size: 28px;
+}
+
+.etlap h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    display:flex;
+    padding-top: 20px;
+    background-color: #F4D1C8;
+    justify-content: center;
+}
+
+.footertart{
+    margin: auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+}
+   
+.teloszam{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.email{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.hazszam{
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+}
+
+footer img{
+    margin: auto;
+    width: 65px;
+    height: 65px;
+    margin-left: 10PX;
+    border-radius: 15px;
+    margin-bottom: 12px;
+    border: 1px solid #2C3E50;
+}
+
+#kep2{
+    visibility:hidden;
+}
+
+/* ======= MOBIL NÉZET (max-width: 799px) ======= */
+
+@media only screen and (max-width: 799px) {
+
+    .gyorsgomb {
+        display: none;
+    }
+
+    .focim {
+        margin: auto;
+    }
+
+    .lenyil {
+        display: inline-block;
+        margin-top: 18px;
+        margin-right: 16px;
+    }
+
+    .lenyil button {
+        font-size: 25px;
+    }
+
+    .menu {
+        background-color: #2C3E50;
+        color: white;
+        padding: 7px 16px 16px 16px;
+        font-size: 16px;
+        border: none;
+        border-radius: 10px;
+    }
+
+    .tartalom {
+        display: none;
+        position: absolute;
+        background-color: #EAE0D5;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        border-radius: 10px;
+        margin-right: 10px;
+    }
+
+    .tartalom a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .tartalom a:hover {background-color: #F4D1C8;}
+
+    .lenyil:hover .tartalom {display: block;}
+
+    .lenyil:hover .menu {background-color: #202d3b;}
+
+    .main, .etlap, .kiscim {
+        width: 85%;
+        margin: auto;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .etlap {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 30px ;
+    }
+
+    .kiscim h2 {
+        font-size: 30px;
+    }
+
+    .aperitif, .eloetelek, .foetelek, .desszertek, .italok, .sajtvalogatas {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .focim {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .focim {
+        font-size: 40px;
+    }
+}
+
+/* ======= GÉPES NÉZET (min-width: 800px) ======= */
+
+@media only screen and (min-width: 800px) {
+
+    .focim {
+        text-align: left;
+        margin-left: 20px;
+        flex-grow: 10;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .tartalom {
+        margin-top: 27px;
+    }
+
+    .tartalom a {
+        text-align: right;
+        margin-top: 350px;
+        margin-right: 27px;
+        font-size: 28px;
+        text-decoration: none;
+    }
+
+    .gyorsgomb {
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        width: 85%;
+        margin: 15px auto 10px;
+        box-sizing: border-box;
+        padding: 20px;
+        max-height: 380px;
+    }
+
+    .lista {
+        padding-left: 25px;
+    }
+
+    .lista li a {
+        text-decoration: none;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        width: 85%;
+        margin: auto;
+    }
+
+    #ide1 {
+        width: 85%;
+    }
+
+    .etlap {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(15, auto);
+        margin-bottom: 30px ;
+    }
+
+    .etlap h1 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    #odavisz {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .etlap nav:nth-of-type(1) { grid-column: 2/3; grid-row: 2/3; }
+    #kaja1 { grid-column: 2/3; grid-row: 3/4; }
+    #kaja2 { grid-column: 3/4; grid-row: 3/4; }
+
+    .etlap nav:nth-of-type(2) { grid-column: 2/3; grid-row: 4/5; }
+    #kaja3 { grid-column: 2/3; }
+    #kaja4 { grid-column: 3/4; }
+    #kaja5 { grid-column: 2/3; }
+    #kaja6 { grid-column: 3/4; }
+
+    .etlap nav:nth-of-type(3) { grid-column: 2/3; }
+    #kaja7 { grid-column: 2/3; }
+    #kaja8 { grid-column: 3/4; }
+    #kaja9 { grid-column: 2/3; }
+    #kaja10 { grid-column: 3/4; }
+
+    .etlap nav:nth-of-type(4) { grid-column: 2/3; }
+    #kaja11 { grid-column: 2/3; }
+
+    .etlap nav:nth-of-type(5) { grid-column: 2/3; }
+    #kaja12 { grid-column: 2/3; }
+    #kaja13 { grid-column: 3/4; }
+    #kaja14 { grid-column: 2/3; }
+    #kaja15 { grid-column: 3/4; }
+
+    .etlap nav:nth-of-type(6) { grid-column: 2/3; }
+    #kaja16 { grid-column: 2/3; }
+    #kaja17 { grid-column: 3/4; }
+}
