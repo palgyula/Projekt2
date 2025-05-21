@@ -86,6 +86,31 @@ footer img{
     visibility:hidden;
 }
 
+.main{
+    border: dashed black;
+    height: 300px;
+    margin: 30px;
+    background-color: #fff;
+    margin: ;
+    margin: 30px 15px 500px 15px;
+}
+
+.main img{
+    margin: 10px 0 0 10px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.p1{
+    margin-left: 10px;
+    font-size: 50px;
+}
+
+.p2{
+    margin-left: 10px;
+    font-size: 30px;
+}
+
 /* ======= MOBIL NÉZET (max-width: 799px) ======= */
 
 @media only screen and (max-width: 799px) {
@@ -138,15 +163,26 @@ footer img{
 
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 440px) {
     .focim {
-        font-size: 50px;
+        font-size: 47px;
+    
+    }
+
+    .main{
+        height: 500px;
     }
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 380px) {
     .focim {
-        font-size: 40px;
+        font-size: 37px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .focim {
+        font-size: 30px;
     }
 }
 
@@ -176,4 +212,7 @@ footer img{
         text-decoration: none;
     }
 
+    .main{
+        max-width: 700px;
+    }
 }

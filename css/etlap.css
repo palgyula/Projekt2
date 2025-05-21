@@ -256,15 +256,21 @@ footer img{
     }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 440px) {
     .focim {
-        font-size: 50px;
+        font-size: 47px;
     }
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 380px) {
     .focim {
-        font-size: 40px;
+        font-size: 37px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    .focim {
+        font-size: 30px;
     }
 }
 
