@@ -114,6 +114,7 @@ footer{
     display:flex;
     margin-top: 20px;
     background-color: #F4D1C8;
+    width: 100%;
   
 }
 
@@ -123,6 +124,7 @@ footer{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     text-align: center;
+    width: 98%;
 }
 
 .teloszam{
@@ -180,8 +182,10 @@ footer img{
     margin-top: 60%;
     margin: auto;
     margin-top: 30px;
-    padding: 5px;
+    padding: 8px;
     text-align: justify;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px 20px #EAE0D5;
 }
 
 .ettermunk{
@@ -221,6 +225,7 @@ footer img{
     padding-left: 9vw;
     padding-right: 9vw;
     z-index: 4;
+    text-decoration: none;
 }
 
 
@@ -245,20 +250,44 @@ footer img{
 }
 
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 460px){
     .focim{
-        font-size: 50px;
+        font-size: 47px;
     }
 }
  
-@media only screen and (max-width: 370px){
+@media only screen and (max-width: 399px){
     .focim{
-        font-size: 40px;
+        font-size: 37px;
     }
 }
+
+@media only screen and (max-width: 365px){
+    .focim{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 330px){
+    .focim{
+        font-size: 26px;
+    }
+}
+
 }
 /*=====================================================*/
 @media only screen and (min-width: 800px){
+
+    @media only screen and (max-width: 380px){
+        .focim{
+            font-size: 30px;
+        }
+    }
+     
+    @media only screen and (max-width: 350px){
+        .focim{
+            font-size: 40px;
+        }
+    }
 
     .oldal{
         display: grid;
@@ -314,6 +343,7 @@ footer img{
         display:flex;
         margin-top: 20px;
         background-color: #F4D1C8;
+        grid-column: 1/3;
       
     }
     
@@ -322,6 +352,7 @@ footer img{
         display: flex;
         gap: 50px;
         text-align: center;
+        grid-column: 1/3;
     }
     
     footer img{
@@ -341,6 +372,7 @@ footer img{
         width: 100%;
         height: 400px;
         min-height: 600px;
+
 
     }
 
