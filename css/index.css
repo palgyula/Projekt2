@@ -189,7 +189,7 @@ footer img{
 }
 
 .ettermunk{
-    color: #ffffff;
+    color: #EAE0D5;
     font-size: 60px;
     padding-top: 20px;
 
@@ -224,6 +224,8 @@ footer img{
     cursor: pointer;
     padding-left: 9vw;
     padding-right: 9vw;
+    /*padding-top: 7px;
+    padding-bottom: auto;*/
     z-index: 4;
     text-decoration: none;
 }
@@ -404,6 +406,8 @@ footer img{
         margin-top: 236px;
         margin-left: auto;
         margin-right: auto;
+        padding-top: auto;
+        padding-bottom: auto;
     }
 
     .helyszinn1{
@@ -439,7 +443,8 @@ footer img{
         text-decoration: none;
         padding-left: 15vw;
         padding-right: 15vw;
-        padding-bottom: 1vw;
+        padding-top: auto;
+        padding-bottom: auto;
         min-height: 35px;
         vertical-align: middle;
     }
